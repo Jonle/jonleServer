@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+<%- include ../common/head.ejs %>
+
+<body>
+<%- include ../common/header.ejs %>
+<main id='post'>
+    <div class="content">
+        <article>
+            <section class="content markdown-body">
+                <h1>个人信息</h1>
+                <div class='post-meta'>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <ul>
+                    <li>姓名: 张乐</li>
+                    <li>籍贯：河北保定</li>
+                    <li>学校：防灾科技学院<br>-专业：计算机科学与技术<br>-学历：本科</li>
+                    <li>邮箱：<a href="mailto:jonle@live.cn" target="_blank" rel="noopener">jonle@live.cn</a></li>
+                </ul>
+
+            </section>
+            <section class="content markdown-body">
+                <h1></h1>
+                <div class='post-meta'>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <ul>
+                    本博客使用腾讯云主机，Node.js作为web服务器进行搭建。
+                </ul>
+
+            </section>
+        </article>
+
+        <!-- disqus 评论框 start -->
+        <%- include ../comment/disqus.ejs %>
+
+    </div>
+    <aside>
+
+    </aside>
+</main>
+
+<!-- disqus 公共JS代码 -->
+<%- include ../comment/disqusConfig.ejs %>
+<!-- disqus 公共JS代码 end -->
+
+<%- include ../common/footer.ejs %>
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="/lib/in-view.min.js"></script>
+<script src="/lib/lodash.min.js"></script>
+<%- include ../common/scroll.ejs %>
+<script src="/lib/jquery.fancybox.min.js"></script>
+
+
+</body>
+</html>

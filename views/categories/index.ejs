@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<%- include ../common/head.ejs %>
+
+<body>
+<%- include ../common/header.ejs %>
+<main id='post'>
+    <div class="content">
+        <article>
+            <section class="content markdown-body">
+                <h1>Untitled</h1>
+                <div class='post-meta'>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <time>2018/06/30</time>
+                </div>
+
+            </section>
+        </article>
+
+        <!-- disqus 评论框 start -->
+        <%- include ../comment/disqus.ejs %>
+
+    </div>
+    <aside>
+
+    </aside>
+</main>
+
+<!-- disqus 公共JS代码 -->
+<%- include ../comment/disqusConfig.ejs %>
+<!-- disqus 公共JS代码 end -->
+<%- include ../common/footer.ejs %>
+
+</body>
+</html>

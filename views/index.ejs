@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<%- include common/head.ejs %>
+
+<body>
+<%- include common/header.ejs %>
+<main id='index'>
+    <div class="posts-list">
+
+        <section>
+            <a href="/2018/06/30/myGames/">
+                <h3 class='post-head'>
+                    h5游戏 -XXHD
+                </h3>
+            </a>
+            <div class='post-meta'>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <time>2018/06/30</time>
+                <span class="seperator">|</span>
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <a href="/tags/h5-Games" class='tag'>h5 Games</a>
+            </div>
+        </section>
+
+    </div>
+    <aside>
+        <div class="search">
+            <div class="content">
+                <form action="//www.google.com/search" target="_blank" class="search-form">
+                    <input type="text" name="q" maxlength="20" placeholder=Search>
+                    <input type="hidden" name='sitesearch' value="http://www.jonle.xyz">
+                </form>
+            </div>
+        </div>
+        <div class="avatar">
+            <img src="images/avatar.jpg" alt="avatar">
+
+            <div class="content">
+                <span>微笑向暖，安之若素，你若盛开，清风自来。</span>
+            </div>
+            <div class="content">
+                <span>初学使用Node.js搭建服务器</span>
+            </div>
+        </div>
+
+        <div class="links">
+            <h1>
+                Search
+            </h1>
+            <div class="content">
+
+                <a href="https://stackoverflow.com/" target="_blank">StackOverflow</a>
+
+                <a href="https://github.com/" target="_blank">Github</a>
+
+                <a href="https://www.google.com/" target="_blank">Google</a>
+
+                <a href="https://www.zhihu.com/" target="_blank">知乎</a>
+
+                <a href="https://www.baidu.com/" target="_blank">百度</a>
+
+            </div>
+        </div>
+
+    </aside>
+</main>
+<!--footer-->
+<%- include common/footer.ejs %>
+</body>
+
+</html>
