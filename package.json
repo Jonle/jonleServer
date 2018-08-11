@@ -1,0 +1,18 @@
+{
+  "name": "Jonle",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.0",
+    "handlebars": "^4.0.11",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.2.0"
+  }
+}
