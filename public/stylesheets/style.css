@@ -38,6 +38,7 @@ footer .copyright {
     width: 100%;
     color: #BABABA;
     font-size: 0.9em;
+    text-align: center;
 }
 
 footer .copyright a:hover {
