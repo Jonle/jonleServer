@@ -32,10 +32,9 @@ main {
 
 footer .copyright {
     max-width: 1000px;
-    padding: 0 16px;
     margin: 0 auto;
     line-height: 1.5em;
-    width: 100%;
+    width: 80%;
     color: #BABABA;
     font-size: 0.9em;
     text-align: center;
