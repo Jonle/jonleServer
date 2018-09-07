@@ -26,6 +26,8 @@ app.use('/tags',require('./routes/tags'));
 app.use('/2018/06/30/myGames',require('./routes/myGames'));
 app.use('/tags/h5-Games',require('./routes/myGames'));
 
+app.use('/wwc',require('./routes/wwc'));
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
