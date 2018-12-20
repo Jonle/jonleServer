@@ -1,0 +1,45 @@
+{
+
+"apps":[
+
+    {
+
+        "name":"app1",
+
+        "cwd":"/jonleServer",
+
+        "max_memory_restart":"100M",
+
+        "log_date_format":"YYYY-MM-DD HH:mm:ss SSS",
+
+        "script":"/jonleServer/bin/www",
+
+        "env":{
+
+            "http_proxy":"http://localhost:3000"
+
+        }
+
+    },
+
+      {
+
+        "name":"app2",
+
+        "cwd":"/WebSocketServer",
+
+        "max_memory_restart":"100M",
+
+        "log_date_format":"YYYY-MM-DD HH:mm:ss SSS",
+
+        "script":"/WebSocketServer/bin/www",
+
+        "env":{
+
+            "http_proxy":"http://localhost:8081"
+
+        }
+
+    }]
+
+    }
